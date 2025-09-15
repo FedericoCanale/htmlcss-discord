@@ -176,4 +176,8 @@ footer {
     color: white;
 }
 
-.wrapper1-title 
+.wrapper1-title {
+    padding-left: 140px;
+    padding-right: 140px;
+    line-height: 1.5rem;
+}
