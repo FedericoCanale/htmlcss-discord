@@ -51,7 +51,7 @@ header {
     align-items: center;
     gap: 20px;
     padding: 100px;
-    background-color: green;
+    background-color: white;
 }
 
 .container-main3 {
@@ -60,7 +60,7 @@ header {
     align-items: center;
     gap: 20px;
     padding: 100px;
-    background-color: orange;
+    background-color: white;
 }
 
 .colonna {
@@ -177,7 +177,19 @@ footer {
 }
 
 .wrapper1-title {
-    padding-left: 140px;
-    padding-right: 140px;
+   padding-right: 120px;
+   padding-left: 120px;
+    line-height: 1.3rem;
+}
+
+.img1 {
+    width: 130%;
+    padding-right: 40px;
+    
+
+}
+.column-p {
     line-height: 1.5rem;
+    margin-top: 20px;
+
 }
