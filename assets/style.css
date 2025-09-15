@@ -80,12 +80,12 @@ header {
     gap: 15px;
     padding: 100px;
     text-align: center;
-    background-color: yellow;
+    background-color: white;
 }
 
 footer {
     margin: 0;
-    background-color: rgb(249, 35, 2);
+    background-color: #23272a;
     width: 100%;
     padding: 0px;
 }
@@ -105,6 +105,7 @@ footer {
 .footer-main {
     flex: 1;
     min-width: 250px;
+  
 }
 
 .footer-columns {
@@ -119,8 +120,8 @@ footer {
     justify-content: space-between;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 70px;
+    padding-left: 70px;
 
 }
 
@@ -152,11 +153,11 @@ footer {
 }
 
 .wrapper1 h1 {
-  margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 
 .wrapper1 p {
-  margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 
 .button-w1 {
@@ -177,19 +178,93 @@ footer {
 }
 
 .wrapper1-title {
-   padding-right: 120px;
-   padding-left: 120px;
+    padding-right: 120px;
+    padding-left: 120px;
     line-height: 1.3rem;
 }
 
 .img1 {
-    width: 130%;
+    width: 100%;
     padding-right: 40px;
-    
+
 
 }
+
 .column-p {
     line-height: 1.5rem;
     margin-top: 20px;
 
+}
+
+.text-star {
+    background-image: url(./img/stars.svg);
+    background-size: cover;
+}
+
+.button-download {
+    border-radius: 115px;
+    padding: 12px;
+    border: none;
+    font-size: 12px;
+    background-color: #8ea1e1;
+    color: white;
+
+}
+
+.bottom-title {
+    color: #3161e0;
+}
+
+ul {
+   list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    line-height: 1.5rem;
+}
+
+.bottom-title1 {
+    color: #3161e0;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.icona-testo {
+  display: flex;
+  align-items: center;  
+  gap: 10px;            
+}
+
+.icona-testo img {
+  width: 24px; 
+  height: 24px;
+}
+
+.italiano {
+    color: white;
+    font-size: 14px;
+}
+
+.gallery {
+  display: flex;
+  padding-top: 10PX;
+  gap: 10px;      
+}
+
+.gallery img {
+  width: 20px;       
+  height: auto;        
+  display: block;
+}
+
+.line-divider {
+  border: none;               
+  height: 1px;                
+  background-color: #8ea1e1;   
+  margin-top: 20px;            
+  margin-bottom: 20px;                     
+  margin-left: 65px;           
+  margin-right: 65px;
 }
