@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    min-width: 1200px;
 }
 
 
@@ -31,10 +32,11 @@ header {
     padding-left: 100px;
 }
 
-.container-main1 {
+.jumbotron {
     background-image: url(./img/jumbo.png);
     display: flex;
     background-size: cover;
+    background-position: top;
 }
 
 .wrapper1 {
@@ -186,6 +188,7 @@ footer {
 .img1 {
     width: 120%;
     padding-right: 40px;
+    box-sizing: border-box;
 
 
 }
